@@ -15,9 +15,13 @@
 11. git merge rama-nombre       {se trae lo de rama-nombre y lo une a la rama actual (por lo general master)}
 # i para escribir, para salir -> Esc, luego :wq!
 12. git branch -d rama-nombre   {para eliminar una rama}
+# remoto
+13. git remote add origin https://github.com/kevinlflorez/comandosgit.git
+14. git branch -M main
+15. git push -u origin main
 # usar los comandos para llevarlos al repositorio remoto
-13. git push            {despues de hacer nuevo commit, usar este comando para subir al repositorio remoto}
-14. git commit -am ""   {cuando ya se esta haciendo seguimiento a un directorio, se omite el add .}
+16. git push            {despues de hacer nuevo commit, usar este comando para subir al repositorio remoto}
+17. git commit -am ""   {cuando ya se esta haciendo seguimiento a un directorio, se omite el add .}
 # bonus no nombrado
-15. git pull            {para traer todos los ultimos cambios antes de actualizar los repositorios}
+18. git pull            {para traer todos los ultimos cambios antes de actualizar los repositorios}
 
